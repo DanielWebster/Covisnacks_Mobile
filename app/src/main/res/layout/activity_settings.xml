@@ -2,7 +2,58 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/settings">
+    android:id="@+id/settings"
+    android:weightSum="7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:text="Alert me when the snacks are gone"
+        android:layout_weight="1"/>
+
+    <ToggleButton
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/empty"
+        android:onClick="empty"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="Alert me when the snacks are at half"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:layout_weight="1"/>
+
+    <ToggleButton
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/half"
+        android:onClick="half"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="Alert me when the snacks are full"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:layout_weight="1"/>
+
+    <ToggleButton
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/full"
+        android:onClick="full"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="Back"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:onClick="back"/>
 
 
 </LinearLayout>
