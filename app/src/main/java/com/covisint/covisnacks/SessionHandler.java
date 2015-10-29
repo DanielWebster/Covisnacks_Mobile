@@ -16,13 +16,13 @@ public class SessionHandler {
     private final Set<Session> sessions = new HashSet<>();
 
     //BrokerService brokerService = BrokerService.getInstance();
-    
-    
-    
+
+
+
 
     /**
      * Removes a WebSocket session.
-     * 
+     *
      * @param session Session to be removed
      */
     public void removeSession(Session session) {
@@ -31,7 +31,7 @@ public class SessionHandler {
 
     /**
      * Adds a WebSocket Session.
-     * 
+     *
      * @param session Session to be added
      */
     public void addSession(Session session) {
@@ -40,7 +40,7 @@ public class SessionHandler {
 
     /**
      * To start receiving EventData from server.
-     * 
+     *
      * @return Event messages from the server
      */
     public String startRecieve() {
@@ -59,7 +59,7 @@ public class SessionHandler {
 
     /**
      * To publish a command.
-     * 
+     *
      * @param deviceId Id of the device
      * @param lightStatus Light color of the LED
      */
@@ -70,7 +70,7 @@ public class SessionHandler {
 
     /**
      * To retrieve commands for a particular device in a particular realm.
-     * 
+     *
      * @param deviceId Id of the device
      * @param realm realm being searched
      */

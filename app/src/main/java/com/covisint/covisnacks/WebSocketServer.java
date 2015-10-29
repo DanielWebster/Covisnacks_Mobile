@@ -26,12 +26,12 @@ public class WebSocketServer {
     // Initialize a new SessionHandler
     @Inject
     private SessionHandler sessionHandler = new SessionHandler();
-    
+
     AppStreamMQTTClient appStream = AppStreamMQTTClient.getInstance();
-    
+
     /**
      * Opens a WebSocket session.
-     * 
+     *
      * @param session
      */
     @OnOpen
@@ -45,7 +45,7 @@ public class WebSocketServer {
 
     /**
      * Closes a WebSocket session.
-     * 
+     *
      * @param session
      */
     @OnClose
@@ -56,7 +56,7 @@ public class WebSocketServer {
 
     /**
      * Throws an error in case of issue in WebSocket session.
-     * 
+     *
      * @param error
      */
     @OnError
@@ -67,7 +67,7 @@ public class WebSocketServer {
 
     /**
      * Handles the messages coming on the server from the browser.
-     * 
+     *
      * @param message Incoming message from the client
      * @param session Current WebSocket session
      * @return String Message from server to the client/browser
@@ -75,7 +75,7 @@ public class WebSocketServer {
     @OnMessage
     public String handleMessage(String message, Session session) {
 
-    	
+
         try {
 			System.out.println("Handling messages");
 			if (message.equals("GL1")) {
@@ -93,7 +93,7 @@ public class WebSocketServer {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-                	
+
         return "";
     }
 
