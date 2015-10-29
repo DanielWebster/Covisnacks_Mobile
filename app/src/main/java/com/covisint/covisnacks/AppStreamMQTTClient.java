@@ -27,22 +27,15 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.eclipse.paho.client.mqttv3.MqttPersistenceException;
 
 
-
-
-
-
-
-
-
 import com.covisint.platform.messaging.sendevent.core.SupportedMediaType;
 import com.covisint.platform.messaging.sendevent.core.sendevent.SendEvent;
 import com.covisint.platform.messaging.sendevent.core.sendevent.io.json.SendEventReader;
 import com.covisint.platform.messaging.sendevent.core.sendevent.io.json.SendEventWriter;
 //import com.covisint.platform.messaging.sendevent.core.sendevent.SendEvent;
 //import com.covisint.platform.messaging.sendevent.core.sendevent.io.json.SendEventReader;
-import com.google.api.client.util.Base64;
+//import com.google.api.client.util.Base64;
+import android.util.Base64;
 import com.google.common.net.MediaType;
-import com.websocket.SessionHandler;
 
 public class AppStreamMQTTClient implements MqttCallback{
 
@@ -151,7 +144,7 @@ public class AppStreamMQTTClient implements MqttCallback{
      * @throws IOException
      */
     private byte[] decodeMessage(String message) throws IOException {
-        return Base64.decode(message.getBytes());
+        return Base64.decode(message.getBytes(), Base64.DEFAULT);
     }
 
     /**
