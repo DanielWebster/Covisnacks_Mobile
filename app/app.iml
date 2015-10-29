@@ -84,11 +84,60 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 21 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="support-v4-22.2.0" level="project" />
-    <orderEntry type="library" exported="" name="support-annotations-22.2.0" level="project" />
+    <orderEntry type="library" exported="" name="http-service-client-TRUNK-SNAPSHOT" level="project" />
+    <orderEntry type="library" exported="" name="javax.json-api-1.0" level="project" />
+    <orderEntry type="library" exported="" name="javax.el-api-3.0.0" level="project" />
+    <orderEntry type="library" exported="" name="spring-core-4.1.1.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="javax.json-1.0.4" level="project" />
+    <orderEntry type="library" exported="" name="javax.interceptor-api-1.2" level="project" />
+    <orderEntry type="library" exported="" name="aopalliance-1.0" level="project" />
+    <orderEntry type="library" exported="" name="google-http-client-jackson2-1.20.0" level="project" />
+    <orderEntry type="library" exported="" name="aspectjrt-1.8.6" level="project" />
+    <orderEntry type="library" exported="" name="slf4j-log4j12-1.7.12" level="project" />
+    <orderEntry type="library" exported="" name="protobuf-java-2.6.1" level="project" />
+    <orderEntry type="library" exported="" name="protobuf-support-1.0.0.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="sendevent-service-protobuf-TRUNK-SNAPSHOT" level="project" />
+    <orderEntry type="library" exported="" name="jsr305-1.3.9" level="project" />
+    <orderEntry type="library" exported="" name="gson-1.6" level="project" />
+    <orderEntry type="library" exported="" name="handy-uri-templates-2.0.2" level="project" />
+    <orderEntry type="library" exported="" name="core-support-1.1.0.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="junit-4.11" level="project" />
+    <orderEntry type="library" exported="" name="google-oauth-client-1.20.0" level="project" />
+    <orderEntry type="library" exported="" name="mqtt-client-0.4.0" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-22.2.0" level="project" />
+    <orderEntry type="library" exported="" name="google-http-client-1.20.0" level="project" />
+    <orderEntry type="library" exported="" name="sendevent-service-core-TRUNK-SNAPSHOT" level="project" />
+    <orderEntry type="library" exported="" name="device-client-TRUNK-SNAPSHOT" level="project" />
+    <orderEntry type="library" exported="" name="log4j-1.2.17" level="project" />
+    <orderEntry type="library" exported="" name="spring-expression-4.1.1.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="spring-aop-4.1.1.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="http-service-core-2.0.0.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="spring-context-4.1.1.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="guava-18.0" level="project" />
+    <orderEntry type="library" exported="" name="jackson-core-2.2.3" level="project" />
+    <orderEntry type="library" exported="" name="jackson-databind-2.2.3" level="project" />
+    <orderEntry type="library" exported="" name="cdi-api-1.2" level="project" />
+    <orderEntry type="library" exported="" name="google-api-client-1.4.0-alpha" level="project" />
+    <orderEntry type="library" exported="" name="trace-TRUNK-SNAPSHOT" level="project" />
+    <orderEntry type="library" exported="" name="jackson-core-asl-1.6.7" level="project" />
+    <orderEntry type="library" exported="" name="jackson-annotations-2.2.3" level="project" />
+    <orderEntry type="library" exported="" name="jcl-over-slf4j-1.7.12" level="project" />
+    <orderEntry type="library" exported="" name="javax.jms-api-2.0" level="project" />
+    <orderEntry type="library" exported="" name="support-annotations-22.2.0" level="project" />
+    <orderEntry type="library" exported="" name="javax.websocket-api-1.1" level="project" />
+    <orderEntry type="library" exported="" name="hamcrest-core-1.3" level="project" />
+    <orderEntry type="library" exported="" name="spring-webmvc-4.1.1.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="spring-beans-4.1.1.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="spring-web-4.1.1.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="slf4j-api-1.7.12" level="project" />
+    <orderEntry type="library" exported="" name="device-core-TRUNK-SNAPSHOT" level="project" />
+    <orderEntry type="library" exported="" name="support-v4-22.2.0" level="project" />
+    <orderEntry type="library" exported="" name="javax.inject-1" level="project" />
+    <orderEntry type="library" exported="" name="httpclient-support-TRUNK-SNAPSHOT" level="project" />
+    <orderEntry type="library" exported="" name="device-protobuf-TRUNK-SNAPSHOT" level="project" />
   </component>
 </module>
