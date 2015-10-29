@@ -3,18 +3,6 @@
 buildscript {
     repositories {
         jcenter()
-        maven {
-            url 'http://nexus.dtw.covisint.com/content/repositories/core-release'
-        }
-        maven {
-            url 'http://nexus.dtw.covisint.com/content/repositories/core-snapshot'
-        }
-        maven {
-            url 'http://nexus.dtw.covisint.com/content/repositories/releases'
-        }
-        maven {
-            url 'http://nexus.dtw.covisint.com/content/repositories/snapshots'
-        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:1.2.3'
